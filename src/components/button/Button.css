@@ -1,0 +1,24 @@
+.button {
+    height: 150px;
+    width: 150px;
+    background: blue;
+    padding-top: 66px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 7px 6px 10px black;
+    cursor: pointer;
+    transition: background 0.1s;
+}
+
+#red:active{
+    background:darkred !important;
+}
+#blue:active{
+    background:darkblue !important;
+}
+#green:active{
+    background:darkgreen !important;
+}
+#yellow:active{
+    background:darkgoldenrod !important;
+}
